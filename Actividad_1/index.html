@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Actividad 1</title>
+</head>
+<body>
+    <div>
+    <h1>Actividad 1</h1>
+    <h2>Bootcamp FrontEnd</h2>
+    <form method="post" action=''>
+      <fieldset>
+        <label for="first-name">Nombre: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="last-name">Apellido: <input id="last-name" name="last-name" type="text" required /></label>
+        <label for="email">Correo electrónico: <input id="email" name="email" type="email" required /></label>
+        <label for="new-password">Contraseña: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> Acepto los <a href="https://i.kym-cdn.com/entries/icons/original/000/042/276/dammcover.jpg" target="_blank" rel="noopener noreferrer">términos y condiciones.</a>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="age">Ingresa tu edad en años cumplidos: <input id="age" type="number" name="age" min="13" max="120" /></label>
+        <label for="referrer">¿A qué te dedicas?
+          <select id="referrer" name="referrer">
+            <option value="">(seleccionar una)</option>
+            <option value="1">FrontEnd</option>
+            <option value="2">BackEnd</option>
+            <option value="3">FullStack</option>
+            <option value="4">Aún soy estudiante</option>
+          </select>
+        </label>
+      </fieldset>
+      <input type="submit" value="Registrarme" />
+    </form>
+    </div>
+</body>
+</html>

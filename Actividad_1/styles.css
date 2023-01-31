@@ -1,0 +1,91 @@
+body {
+	background: linear-gradient(-45deg, #2d95b5, #2b2ec8, #5929e8, #8223d5);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100%;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+  h1 {
+    padding-top: 1.5rem;
+  }
+  h1, h2 {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #0a0a2a;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    border-radius: 8px;
+    min-height: 2em;
+  }
+  
+  input, option, select {
+    background-color: #24247d;
+    border: 1px solid #171753;
+    color: #ffffff;
+  }
+
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #255bcf;
+    border-color: white;
+    min-width: 300px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #173880;
+  }
+
+  a:visited { 
+    text-decoration: none;
+    color: #dfdfe2;
+   }
